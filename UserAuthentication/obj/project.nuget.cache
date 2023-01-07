@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "65fH8ZQmo+VIskhAAfTy9sbLy7UhOosQYkBptNDbTm2PQnjZUKsx6/jId8QDpLQhLqTWmKBANOhwUwtfV/ytqA==",
+  "success": true,
+  "projectFilePath": "D:\\Intern\\UserAuthentication\\UserAuthentication\\UserAuthentication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zaifi\\.nuget\\packages\\bootstrap\\5.2.3\\bootstrap.5.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
