@@ -2,17 +2,18 @@
 
 namespace UserAuthentication.Services
 {
-    public class LoginService
+    public static class LoginService
     {
         private static List<LoginModel> list = new List<LoginModel>();
 
-        internal static List<LoginModel> GetNamePassword()
+        public static List<LoginModel> GetNamePassword()
         {
             return list;
             
         }
 
-        internal static void SetNamePassword(LoginModel model)
+
+        public static void SetNamePassword(LoginModel model)
         {
             foreach(LoginModel login in list) 
             {

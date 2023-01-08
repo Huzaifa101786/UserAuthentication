@@ -8,15 +8,17 @@ namespace UserAuthentication.Controllers
     {
         public IActionResult LoginView()
         {
-            return View(LoginService.GetNamePassword);
+            //return View(LoginService.GetNamePassword);
+            return View();
         }
 
 
         [HttpPost]
         public IActionResult LoginView(LoginModel model)
         {
-            LoginService.SetNamePassword(model);
-            return View(LoginService.GetNamePassword());
+           LoginService.SetNamePassword(model);
+            //return View(LoginService.GetNamePassword());
+            return View(model);
         }
     }
 }
